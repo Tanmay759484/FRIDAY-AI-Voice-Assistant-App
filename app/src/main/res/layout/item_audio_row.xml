@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <!-- Play/Pause Button -->
+    <ImageView
+        android:id="@+id/play_pause_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/play_button"
+        android:contentDescription="Play/Pause" />
+
+    <!-- Audio File Name -->
+    <TextView
+        android:id="@+id/audio_file_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Recorded Audio"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <!-- Delete Button -->
+    <ImageView
+        android:id="@+id/delete_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:src="@drawable/trash"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="Delete" />
+</LinearLayout>

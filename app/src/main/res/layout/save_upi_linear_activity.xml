@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/popup_background">
+
+    <EditText
+        android:id="@+id/popup_edittext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Enter text"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/google_voice"
+        android:contentDescription="Icon 1" />
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/trash"
+        android:contentDescription="Icon 2" />
+
+</LinearLayout>

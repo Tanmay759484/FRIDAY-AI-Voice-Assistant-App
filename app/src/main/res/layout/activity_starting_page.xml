@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".starting_page">
+<!--    android:background="@drawable/gradient_background"-->
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_centerVertical="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@android:color/white"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/aiNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:alpha="0"/>
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Personal AI Assistant"
+        android:textSize="18sp"
+        android:layout_below="@id/aiNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@android:color/white"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:alpha="0"/>
+
+    <Button
+        android:id="@+id/let_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/live_data_background"
+        android:layout_below="@id/subtitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:alpha="0"
+        android:backgroundTint="@color/holo_blue_light"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Let's Start"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/sign_in_button_s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/live_data_background"
+        android:layout_below="@+id/let_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:alpha="0"
+        android:backgroundTint="@color/holo_blue_light"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Sign In"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/sign_out_button_s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/live_data_background"
+        android:layout_below="@id/sign_in_button_s1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:alpha="0"
+        android:backgroundTint="@color/holo_blue_light"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Sign Out"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

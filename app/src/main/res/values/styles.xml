@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#84009A</item>
+        <item name="actionOverflowMenuStyle">@style/CustomPopupMenu</item>
+        <item name="titleTextStyle">@font/montserrat_bold</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">#84009A</item>
+    </style>
+
+    <!-- Fullscreen theme for starting page -->
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">#00E2FF</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen_camera" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:navigationBarColor">#000000</item> <!-- Set navigation bar color to black -->
+    </style>
+
+    <!-- Define your custom style of overflow menu -->
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@drawable/menu_item_background</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Base application theme with a dark action bar -->
+    <style name="AppTheme_darkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!-- Primary color -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- Status bar color -->
+        <item name="android:statusBarColor">#451C4C</item>
+    </style>
+
+</resources>

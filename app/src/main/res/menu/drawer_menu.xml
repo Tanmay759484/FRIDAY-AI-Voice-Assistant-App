@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/voice_assistance"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/voice_assistance"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/voice_assistance"
+        android:title="Wake Up Word Settings" />
+    <!-- Add more items as needed -->
+    <item
+        android:id="@+id/sign_out_button330"
+        android:icon="@drawable/voice_assistance"
+        android:title="Sign Out" />
+</menu>

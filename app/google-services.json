@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203145144451",
+    "firebase_url": "https://foregroundservice-10348-default-rtdb.firebaseio.com",
+    "project_id": "foregroundservice-10348",
+    "storage_bucket": "foregroundservice-10348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203145144451:android:036c653272dd41470953b6",
+        "android_client_info": {
+          "package_name": "com.example.foregroundservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203145144451-77mqsf7nllhl668na47pnepbgl22j04g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foregroundservice",
+            "certificate_hash": "fc3c1c50d9dd455da2fbf6b02d302daa1166e14d"
+          }
+        },
+        {
+          "client_id": "203145144451-rikuf6uvgbsd2i57cr10bl1f7qcron20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-UJ1tRaMHyEnTSgUt9U7W2LLMi-mBuk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203145144451-rikuf6uvgbsd2i57cr10bl1f7qcron20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
