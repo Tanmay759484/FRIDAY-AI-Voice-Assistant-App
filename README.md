@@ -22,7 +22,7 @@ FRIDAY is an Android-based AI voice assistant that responds to a custom wake wor
 </a>
 
 ## 📸 Screenshots
-<img src="demo-front.jpg" width="250"/> <img src="screenshot2.png" width="250"/> <img src="screenshot3.png" width="250"/>
+<img src="demo-front.jpg" width="250"/> <img src="Home-Page.jpg" width="250"/> <img src="AI-namePage.jpg" width="250"/>
 
 ## 📦 Installation
 1. Download the APK from the [Releases](https://github.com/Tanmay759484/FRIDAY-AI-Voice-Assistant-App/releases) section
